@@ -5,7 +5,9 @@ description = "Create image embeddings easily."
 authors = [
     {name = "Maximilian Wessendorf", email = "maxi-git@outlook.de"},
 ]
-dependencies = []
+dependencies = [
+    "timm>=1.0.3",
+]
 requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "Apache 2.0"}
